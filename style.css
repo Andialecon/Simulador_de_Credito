@@ -1,0 +1,60 @@
+body{
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+form {
+    margin: 2%;
+    background-color: silver;
+    border-radius: 10px;
+}
+
+form h2 {
+    text-transform: uppercase;
+}
+
+form input{
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.calculadora {
+    padding: 1%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    background-color:#808080;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#form2{
+    background-color: transparent;
+    color: #ffff;
+    padding: 2%;
+    margin: 0;
+}
+
+#form2 input{
+    margin-left: auto;
+    margin-right: auto;
+    color:red
+}
+
+#form2 h4 {
+    text-transform: uppercase;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: green;
+}
+
+.botones {
+    margin: 5%;
+    border-radius: 5px;
+    color: green;
+    font-weight: bold;
+}
