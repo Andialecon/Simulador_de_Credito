@@ -1,6 +1,5 @@
 body{
     padding: 5%;
-    box-sizing: border-box;
 }
 
 form {
@@ -18,7 +17,32 @@ form input{
     margin: 1%;
 }
 
+.box{
+    float: left;
+    margin: 2%;
+    background-color: silver;
+    width:auto;
+    border-radius:20px;
+}
+
+.head_box{
+    font-size: 25px;
+    padding: 10px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.body_box{
+    padding: 10%;
+    font-size: 20px;
+}
+
 .calculadora {
+    margin: 2%;
+    float: left;
     padding: 1%;
     border-radius: 10px;
     margin-left: auto;
@@ -40,7 +64,7 @@ form input{
 #form2 input{
     margin-left: auto;
     margin-right: auto;
-    color:red
+    color:black;
 }
 
 #form2 h4 {
@@ -53,8 +77,34 @@ form input{
 }
 
 .botones {
+    margin-top: 10%;
     margin: 5%;
     border-radius: 5px;
     color: green;
     font-weight: bold;
+}
+
+#tabla{
+    margin-top: 2%;
+    color:black;
+    float: left;
+}
+
+#tabla th {
+    font-size: 25px;
+    padding: 10px;
+    width: auto;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border: black 2px solid;
+}
+
+#tabla td {
+    margin: 2%;
+    padding: 10px;
+    text-align: center;
+    background-color:silver;
+    font-size: 15px;
+    border: black 2px solid;
 }
